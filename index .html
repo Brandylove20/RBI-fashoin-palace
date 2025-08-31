@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+        <title>gtffashionhouse</title>
+    </head>
+      <body>
+        <style>
+        html{
+            scroll-behavior: smooth;
+        }
+            .nav-bar{
+                background-color: black;
+                align-items: center;
+                text-align: inline;
+                padding-top:20px;
+                padding-bottom: 20px;
+                padding-left: 5px;
+                display: flex;
+            }
+            logo{
+                weight: bold;
+                color: gold;
+                font-size: 25px;
+                font-family: Comic Sans MS;
+            }
+            nav{
+                display: flex;
+                align-items: center;
+                padding-left: 80px;
+                margin-left: 2px ;
+                font-size: 8px;
+                
+            }
+             .nav-bar a{
+               text-decoration: none;
+                spacing: 90px;
+                color: white;
+                margin-right: 10px;
+                font-size: 6px;
+                gap: 4px;
+                display: flex;
+            }
+            .nav-bar button{
+                background-color: gold;
+                color: black;
+                border: none;
+                border-radius: 20px;
+                height: 40px;
+                width: 70px;
+                cursor: pointer;
+                transition: opacity 1s;
+                font-weight: bold;
+                transition: background-color,color 1s
+            }
+            .nav-bar button:hover{
+                color: black;
+                background-color: white;
+                trandition: background-color,color 1s;
+                box-shadow: 1px 1px 1px gold;
+            }
+            .hero{
+                background-color: white;
+                box-shadow: 10px 10px 10px rgba(0,0,0,0.15);
+                margin: 20px;
+                padding: 40px;
+                border-radius: 30px 10px 20px;
+                padding-top: 10px;
+                padding-left: 10px;
+                padding-right: 10px;
+                word-spacing: 1px;
+                margin-top: 0px;
+                
+            }
+            .hero h2{
+                color: gold;
+                background-color: black;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                border-radius: 5px;
+                display: flex;
+                font-size: 10px;
+                padding-left: 20px ;
+            }
+            .hero p1{
+                color: gold;
+                font-weight: bold;
+                font-size: 18px;
+                padding-top: 100px;
+                text-align: center;
+            }
+            .main img{
+                height: auto;
+                padding:10px;
+                margin: 1px auto;
+                width: 320px;
+                display: block;
+                margin-bottom: 10px;
+                border-radius: 15px;
+            }
+             p{
+                 font-family: Sans-Serif;
+                 font-size: 8px;
+                 word-spacing: 2px;
+             }
+             .contactus form{
+                 font-size: 15px;
+                 border: 50px;
+                 background-color: white;
+                 color: black;
+                 border-radius: 15px;
+                 text-align: left;
+                 padding: 5px;
+                 padding-left: 10px;
+                 padding-bottom: 20px;
+                 margin:20px auto;
+                 width: 300px;
+                 box-shadow: 1px 1px 6px 1px grey;
+                 display: flex;
+                 flex-direction: column;
+             }
+             .contactus form h1{
+                 color: gold;
+                 text-align: center;
+                 weight: bold;
+                 font-size: 20px;
+             }
+            .contactus form button{
+                background-color: gold;
+                color: white;
+                border: none;
+                padding: 15px;
+                text-align: center;
+                border-radius: 10px;
+                weight:bold;
+            }
+            .contactuslabel{
+                margin-top: 10px;
+                font-weight: bold;
+                font-size: 15px;
+            }
+            
+            .contactus input{
+                padding: 10px;
+                border-radius: 5px solid;
+                border: 2px solid #gold;
+                
+            }
+            .contactus form p{
+                text-align: center;
+                color: gold;
+                weight: bold
+                padding-left: 85px;
+                text-decoration: none;
+            }
+            .contactus form a{
+                text-decoration: none;
+            }
+            .contactus form p:hover{
+                background-color: white;
+            }
+            .aboutus{
+                weight: bold;
+                text-align: center;
+            }
+            .aboutus{
+                font-size: 25px;
+                font-weight: bold;
+                font-family: poppins;
+            }
+            .aboutus p{
+                font-size: 15px;
+                font-family: Sans-Serif;
+            }
+            .homepage img{
+                height: 250px;
+                width: 345px;
+                box-shadow: 2px 2px 2px;
+                border-radius: 2px;
+                display: block;
+            }
+            .homepage h3{
+                font-size: 15px;
+            }
+            .service img{
+                height: 260;
+                width:345;
+                border-radius: 2px;
+                box-shadow: 1px 1px 1px;
+                
+            }
+            .service p{
+                font-size: 15px;
+                font-family: Arial;
+                font-weight: bold;
+            }
+            .footer{
+                background-color: black;
+                width: 352;
+                box-shadow: ;: 20px 20px 20px;
+                height: 460px;
+                margin-right: 990px;
+                padding: 10px;
+                box-sizing: border-box;
+            }
+            ul{ color:white}
+            .link a{ 
+                text-align: left;
+                display: flex;
+                flex-direction: column;
+                color: white;
+                text-decoration: none;
+                padding-bottom: 10px;
+                background-color: black;
+            }
+            .link a:hover{
+                background-color: black;
+            }
+            .service button{
+                background-color: black;
+                padding: 7px;
+                color: white;
+                margin: 3px;
+                margin-left: 252px;
+                border: none;
+                border-radius: 2px;
+                cursor: pointer;
+            }
+            .footer p{
+                color: white;
+                text-align: center;
+                display: flex;
+                padding-left:20px;
+            }
+            .copyright{
+                text-align: center;
+                margin: 70px;
+                padding-top: 22px;
+            }
+            .footer label{
+                color: white;
+                padding-left: 10px;
+            }
+            .footer insert{
+                border-radius: 3px;
+                padding-left: 10px;
+            }
+            .icon{
+                color: white;
+                padding-left: 50px;
+                weidth: 20px
+                background-color: white;
+                justify-content: space-between ;
+                display: flex;
+                padding: 10px;
+                flex-direction: row;
+            }
+            .newsletter form{
+                border: none;
+                border-radius: none;
+            }
+            .newsletter input{
+                padding: 10px;
+            }
+            .newsletter button{
+                background-color: white;
+                color: black;
+                border: none;
+                height: 30px;
+                width: 70px;
+                cursor: pointer;
+            }
+        </style>
+        <div class="nav-bar">
+            <logo>RBI</logo>
+          <nav>
+                <a href="#home.html">Home</a>
+                <a href="#About us">About us</a>
+                <a href="#contact us">contact us</a>
+                <a href="#services">services</a>
+                <a href="login.html">
+                <button>LOG IN</button></a>
+          </nav>
+        </div>
+        <div class="main">
+          <img src="first.jpg">
+        </div>
+        <div class="hero">
+            <h2>Tailoring you dreams into reality at RBI fashion.
+            </h2>
+            <p1>At RBI Tailoring, we believe that true elegance is crafted, not bought. Every stitch we make is guided by passion, every fabric is chosen with purpose, and every outfit we create is tailored to bring out the uniqueness in you. Fashion is not just what you wear — it’s how confidently you wear your story.
+            </p1>
+        </div>
+        <div class="homepage">
+          <section id="home.html">
+              <h3>Every great design starts with a single thread — sew your dreams into reality.</h3>
+            <img src="thread.jpg">
+            <h3>
+                Thread by thread, we turn visions into fashion and fabric into statements.
+            </h3>
+            <img src="dress.jpeg">
+          </section>
+        </div>
+        <div class="aboutus">
+            <section id="About us">
+                <div class="about us">
+                    <div class="item">Vision
+                    <p>
+our vision is to create innovative and timeless fashion that inspires confidence and empowers individuals to express their unique style with authenticity and boldness, while promoting sustainability and ethical craftsmanship to shape a more conscious and inclusive fashion industry.</p>
+                    </div>
+                    <div class="item">mission
+                    <p>
+To design high-quality, trendsetting fashion pieces that celebrate individuality, prioritize sustainability, and deliver exceptional value, while continuously learning and evolving to meet the needs of a diverse and dynamic clientele.</p>
+</div>
+                    <div class="item">core value
+                   <p>
+we are committed to creativity and innovation, practicing sustainability and ethical standards, delivering quality and excellence, prioritizing customer satisfaction, embracing diversity and inclusion, maintaining integrity and transparency, and pursuing continuous learning and growth.”</p>  
+                     </div>
+                </div>
+            </section>
+        </div>
+        <br>
+        <br>
+        <div class="contactus">
+         <section id="contact us">
+            <form>
+                <h1>Contact us</h1>
+                 <label for="Name">Name:</label>
+                 <br>
+                <input type="text" id="Name" placeholder="enter your name"  required>
+                <br>
+                <br>
+                <label for="email">Email</label>
+                <br>
+                <input type="email" id="email" placeholder="enter your email" required>
+                <br>
+                <br>
+                <label for="gender">choose your gender</label>
+                <select id="gender" name="gender" placeholder"gender" required>
+                <option value="">select</option>
+                <option value="male">male</option>
+                <option value="female">female
+                </option>
+                </select>
+                <br>
+                <br>
+                <label for="date">Date</label>
+                <input type="date" id="date" required>
+                
+                <br>
+                <br>
+                <label for="textholder">COMMENT</label>
+                <textarea></textarea>
+                <br>
+                <br>
+                <button>Submit</button>
+                <strong><a href="login.html"><p> Do you have an account? LOG IN<p></a></strong>
+            </form>
+          </section>
+        </div>
+        </section>
+        <div class="service">
+        <section id="services">
+            <h1>services</h1>
+            <img src="wedding.png">
+            <p>we are the best in creating breathtaking wedding attire that transforms your dreams into reality. Every gown and ensemble is meticulously designed with passion and precision, blending classic craftsmanship with contemporary styles to ensure you radiate elegance and confidence on your special day. Our commitment is to tailor each piece to reflect your personality, culture, and vision, making your wedding outfit not just a dress, but a cherished memory woven with love, beauty, and artistry.</p>
+            <br>
+            <img src="measure.jpg">
+            <p> we understand that the foundation of any beautifully crafted garment lies in precise measurements. That’s why we dedicate ourselves to taking the most accurate and detailed measurements, ensuring that every stitch, seam, and curve perfectly complements your unique body shape. With our expert attention to detail, we guarantee that every piece you wear from us fits flawlessly, feels comfortable, and enhances your personal style, making you look and feel your absolute best on every occasion.</p>
+            <br>
+            <img src="experience.jpg">
+            <p>Experience the perfect blend of style, precision, and elegance — choose GPI Tailoring for your next outfit and let our craftsmanship speak for itself. Your satisfaction is our pride. Visit us today and wear confidence.</p>
+            
+            <a href="order.html"><button>order a dress</button></a>
+        </section>
+        </div>
+        <div class="footer">
+            <div class="link">
+                <ul>
+                    <li>
+                <a href="#home.html">Home</a>
+                </li>
+                <li>
+                <a href="#About us">About us</a>
+                </li>
+                <li>
+                <a href="#contact us">contact us</a>
+                </li>
+                <li>
+                <a href="#services">services</a>
+                </li>
+                </ul>
+        </div>
+        <br>
+                <div class="location">
+            <p>we are loceted at no 25 street omu aran kwara state</p>
+            <p>hot mail-+2348102472762</p>
+            <p>Email: oladeleifeoluwa13@gmail.com</a>
+            <div class="icon">
+        <a href="https://www.facebook.com/profile.php?id=61566038066082"><img src="facebook.svg"></a>
+        <a href="https://www.instagram.com/oladeleifeoluwa13"><img src="instagram.svg"></a>
+        <a href="https://x.com/oladele2580"><img src="x.svg"></a>
+        </div>
+        </div>
+        <br>
+        <div class="newsletter">
+            <form>
+            <label for="subscribe"> subscribe to our Newsletter</label>
+            <br>
+            <input type="email" id="subscribe" required>
+            <button>subscribe</button>
+            </form>
+        </div>
+        <div class="copyright">
+        <p>&copy;rbi taloring 2025 all right reserved</p>
+        </div>
+      </body>
+</html>
